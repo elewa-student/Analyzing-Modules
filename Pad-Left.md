@@ -70,14 +70,14 @@ There is only one major competitor: The Infamous Left-Pad.  Apparently this one 
 pad-left
 |
 +-- /benchmark
-|		+-- /code
-|		|		: Many ways to left pad a string
-|		+-- /fixtures
-|		|		: Test cases
-|		+-- index.js
-|		|		: Runs the benchmark tests and outputs the results
-|		+-- node-*.md
-|				: Outputs from the benchmark tests
+|	+-- /code
+|	|	: Many ways to left pad a string
+|	+-- /fixtures
+|	|	: Test cases
+|	+-- index.js
+|	|	: Runs the benchmark tests and outputs the results
+|	+-- node-*.md
+|		: Outputs from the benchmark tests
 |
 +-- .*
 |		: A whole lot of configuration files
@@ -85,30 +85,30 @@ pad-left
 +-- LICENSE
 |
 +-- README.md
-|		: Title, stats
-|		: The module's behavior, and a link to a related module
-|		: Install instructions
-|		: Usage instructions
-|		: Benchmarking against the infamous left-pad
-|		: More related projects
-|		: Contributing Guidelines
-|		: How to build the docs with verb
-|		: How to run the tests
-|		: Author info
-|		: License
+|	: Title, stats
+|	: The module's behavior, and a link to a related module
+|	: Install instructions
+|	: Usage instructions
+|	: Benchmarking against the infamous left-pad
+|	: More related projects
+|	: Contributing Guidelines
+|	: How to build the docs with verb
+|	: How to run the tests
+|	: Author info
+|	: License
 |
 +-- index.js
-|		: Requires the repeat-string node module
-|		: Exports the pad-left function
-|		: Defines and exports the module's functionality
+|	: Requires the repeat-string node module
+|	: Exports the pad-left function
+|	: Defines and exports the module's functionality
 |
 +-- package.json
-|		: Pretty basic package.json
+|	: Pretty basic package.json
 |
 +-- test.js
-		: Requires mocha, should, and pad-left
-		: Exports nothing
-		: Runs test cases for pad-left
+	: Requires mocha, should, and pad-left
+	: Exports nothing
+	: Runs test cases for pad-left
 ```
 
 [TOP](#index)
@@ -128,7 +128,8 @@ pad-left: Function
 			* what to pad the string with
 	RETURN: String
 	BEHAVIOR:
-		* returns 'str' with 'ch' repeated to the left until 'str' is 'num' characters long.
+		* returns 'str' with 'ch' repeated to the 
+		left until 'str' is 'num' characters long.
 
 ```
 
@@ -151,4 +152,4 @@ It's probably useful if you're doing protocol compliance.
 
 ___
 ___
-### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/36629698-eb7ed6d0-1959-11e8-9a78-7acd2652186e.png" width="100" height="40"/></a>
+### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/36629698-eb7ed6d0-1959-11e8-9a78-7acd2652186e.png" width="100" height="80"/></a>
