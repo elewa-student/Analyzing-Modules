@@ -151,4 +151,4 @@ It's probably useful if you're doing protocol compliance.
 
 ___
 ___
-### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
+### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/36629698-eb7ed6d0-1959-11e8-9a78-7acd2652186e.png" width="100" height="40"/></a>
