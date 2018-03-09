@@ -13,6 +13,7 @@ Principle Developer: jonschlinkert
 * [Analysis](#analysis)
   * [Top-Down](#top-down)
   * [Bottom-Up](#bottom-up)
+  * [Security](#security)
   * [Competition](#competition)
 * [File Structure](#file-structure)  
 * [Specs](#specs)  
@@ -54,6 +55,15 @@ The Code:
 5. __Complaints__: no open issues. Just the bigger questions of why not to write it myself
 6. __Support__: not relevant with no complaints
 7. __Code__: clear and well-written.  I have no trouble understanding it or navigating it
+
+### Security
+
+The source code in this module poses very little risk.  While it's not very actively maintained, and does not have a large group of contributors it's also small and simple enough that this isn't that big of an issue.
+
+But it does have one dependency that could be a vulnerability.  I haven't assessed this one yet.
+
+I can imagine this package posing a risk if someone were to get hold of the maintainer's account and messed with the padding.  They could either have the function pad with a dangerous regular expression, or simply make it pad by more than I want.  Either way they could crash my system, or open dangerous vulnerabilities.
+
 
 ### Competition
 
